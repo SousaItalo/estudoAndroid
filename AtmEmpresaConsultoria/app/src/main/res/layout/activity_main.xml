@@ -15,48 +15,48 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logo"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:background="@drawable/logo" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/menu_empresa"
         android:id="@+id/empresaId"
         android:layout_below="@+id/imageView"
         android:layout_alignLeft="@+id/imageView"
         android:layout_alignStart="@+id/imageView"
-        android:layout_marginTop="23dp" />
+        android:layout_marginTop="23dp"
+        android:background="@drawable/menu_empresa" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/menu_servico"
         android:id="@+id/servicoId"
         android:layout_alignTop="@+id/empresaId"
         android:layout_alignRight="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView" />
+        android:layout_alignEnd="@+id/imageView"
+        android:background="@drawable/menu_servico" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/menu_contato"
         android:id="@+id/contatoId"
         android:layout_alignTop="@+id/clienteId"
         android:layout_alignLeft="@+id/servicoId"
-        android:layout_alignStart="@+id/servicoId" />
+        android:layout_alignStart="@+id/servicoId"
+        android:background="@drawable/menu_contato" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/menu_cliente"
         android:layout_marginTop="35dp"
         android:id="@+id/clienteId"
         android:layout_below="@+id/empresaId"
         android:layout_alignLeft="@+id/empresaId"
-        android:layout_alignStart="@+id/empresaId" />
+        android:layout_alignStart="@+id/empresaId"
+        android:background="@drawable/menu_cliente" />
 
 </RelativeLayout>

@@ -9,16 +9,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="sousaitalo.cursoandroid.com.atmempresaconsultoria.EmpresaActivity">
+    tools:context="sousaitalo.cursoandroid.com.atmempresaconsultoria.EmpresaActivity"
+    android:background="@android:color/background_light">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/detalhe_empresa"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/imageView2" />
+        android:id="@+id/imageView2"
+        android:background="@drawable/detalhe_empresa" />
 
     <TextView
         android:text="@string/empresa_detalhes"
@@ -35,21 +36,18 @@
         android:textColor="@android:color/background_dark" />
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/imageView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="17dp">
+        android:layout_width="320dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="400dp">
 
 
         <TextView
-            android:text="Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit,  Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, "
+            android:text="Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, Lorem ipsum dolorem sit, "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView4"
-            android:textSize="30sp" />
-
+            android:id="@+id/textView5"
+            android:textSize="36sp" />
     </ScrollView>
 
 </RelativeLayout>
