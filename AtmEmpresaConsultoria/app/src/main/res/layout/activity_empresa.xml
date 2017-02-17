@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sousaitalo.cursoandroid.com.atmempresaconsultoria.EmpresaActivity"
-    android:background="@android:color/background_light">
+    android:background="@color/branco">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -47,7 +47,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView5"
-            android:textSize="36sp" />
+            android:textSize="36sp"
+            android:background="@color/cinza_claro"
+            android:textColor="@android:color/background_dark"
+            android:padding="@dimen/padding_padrao" />
     </ScrollView>
 
 </RelativeLayout>

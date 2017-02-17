@@ -2,4 +2,7 @@
     <string name="app_name">AtmEmpresaConsultoria</string>
     <string name="title_activity_empresa">EmpresaActivity</string>
     <string name="empresa_detalhes">Sobre a empresa</string>
+    <string name="texto_consultoria">Consultoria</string>
+    <string name="texto_processos">Processos</string>
+    <string name="texto_acompanhamento">Acompanhamento e projetos</string>
 </resources>
