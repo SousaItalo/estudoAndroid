@@ -8,3 +8,5 @@ Projetos realizados para aprendizado de Android seguindo o curso completo do des
 3 - BasicListView: Conceitos básicos de ListView tais como, usar um adapter para preencher a lista e usar método setOnItemClickListener para capturar clicks em cada elemento da lista.
 
 4 - Signos: Conceitos básicos de ListView.
+
+5 - BasicDialog: Configurações necessárias para exibir uma AlertDialog e ações dos botões
