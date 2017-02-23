@@ -10,3 +10,5 @@ Projetos realizados para aprendizado de Android seguindo o curso completo do des
 4 - Signos: Conceitos básicos de ListView.
 
 5 - BasicDialog: Configurações necessárias para exibir uma AlertDialog e ações dos botões
+
+6 - BasicCheckBox: Criando e obtendo informações de uma checkBox
