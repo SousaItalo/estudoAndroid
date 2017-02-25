@@ -12,3 +12,5 @@ Projetos realizados para aprendizado de Android seguindo o curso completo do des
 5 - BasicDialog: Configurações necessárias para exibir uma AlertDialog e ações dos botões
 
 6 - BasicCheckBox: Criando e obtendo informações de uma checkBox
+
+7 - Basic SeekBar: Manipulações básicas em uma seekBar, como alterar interface de acordo com o a posição e capturar o toque do usuário.
