@@ -14,3 +14,7 @@ Projetos realizados para aprendizado de Android seguindo o curso completo do des
 6 - BasicCheckBox: Criando e obtendo informações de uma checkBox
 
 7 - Basic SeekBar: Manipulações básicas em uma seekBar, como alterar interface de acordo com o a posição e capturar o toque do usuário.
+
+8 - Basic MediaPlayer: Instruções básicas para executar sons no Android.
+
+9 - SomDosBichos: App para exercitar reprodução de sons no Android.

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sousaitalo.cursoandroid.com.somdosbichos.MainActivity"
+    android:background="#f5e9b9">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botaoMacacoId"
+        android:background="@drawable/macaco"
+        android:layout_alignTop="@+id/botaoLeaoId"
+        android:layout_alignLeft="@+id/botaoGatoId"
+        android:layout_alignStart="@+id/botaoGatoId" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botaoGatoId"
+        android:background="@drawable/gato"
+        android:layout_alignTop="@+id/botaoCaoId"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botaoLeaoId"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/leao"
+        android:layout_below="@+id/botaoCaoId"
+        android:layout_alignLeft="@+id/botaoCaoId"
+        android:layout_alignStart="@+id/botaoCaoId" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botaoMacacoId"
+        android:layout_alignLeft="@+id/botaoLeaoId"
+        android:layout_alignStart="@+id/botaoLeaoId"
+        android:layout_marginTop="14dp"
+        android:id="@+id/botaoOvelhaId"
+        android:background="@drawable/ovelha" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/botaoOvelhaId"
+        android:layout_alignLeft="@+id/botaoMacacoId"
+        android:layout_alignStart="@+id/botaoMacacoId"
+        android:id="@+id/botaoVacaId"
+        android:background="@drawable/vaca" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botaoCaoId"
+        android:background="@drawable/cao"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/direitos"
+        android:id="@+id/imageView8"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
