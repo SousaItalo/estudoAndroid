@@ -18,3 +18,5 @@ Projetos realizados para aprendizado de Android seguindo o curso completo do des
 8 - Basic MediaPlayer: Instruções básicas para executar sons no Android.
 
 9 - SomDosBichos: App para exercitar reprodução de sons no Android.
+
+10 - Basic SharedPreferences: Comandos básicos para persistir informações através da classe SharedPreferences
