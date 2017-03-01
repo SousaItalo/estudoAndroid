@@ -20,3 +20,5 @@ Projetos realizados para aprendizado de Android seguindo o curso completo do des
 9 - SomDosBichos: App para exercitar reprodução de sons no Android.
 
 10 - Basic SharedPreferences: Comandos básicos para persistir informações através da classe SharedPreferences
+
+11 - Background SharedPreferences: Usando a classe SharedPreferences para persistir alterações na interface de uma aplicação
