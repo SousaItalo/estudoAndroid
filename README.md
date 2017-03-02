@@ -22,3 +22,5 @@ Projetos realizados para aprendizado de Android seguindo o curso completo do des
 10 - Basic SharedPreferences: Comandos básicos para persistir informações através da classe SharedPreferences
 
 11 - Background SharedPreferences: Usando a classe SharedPreferences para persistir alterações na interface de uma aplicação
+
+12 - TODOList: Uma TODOList que usa SQLite para persistencia de dados e listView para exibição na tela
